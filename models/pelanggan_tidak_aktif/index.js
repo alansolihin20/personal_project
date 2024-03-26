@@ -15,6 +15,6 @@ const userSchema = new mongoose.Schema(
   { timestamps: true } // Masukkan opsi timestamps di sini
 );
 
-const User = mongoose.models.User || mongoose.model('User', userSchema);
+const UserNotActive = mongoose.models.UserNotActive || mongoose.model('UserNotActive', userSchema);
 
-export default User;
+export default UserNotActive;

@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
           <div className="flex h-screen ">
             {/* <Sidebar /> */}
 
-            <div className="">
+            <div className="w-full">
               <Header />
               <main>
-                <div className="mx-auto max-w-screen-2xl">{children}</div>
+                <div className="mx-auto">{children}</div>
               </main>
             </div>
           </div>
